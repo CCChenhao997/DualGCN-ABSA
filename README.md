@@ -1,4 +1,3 @@
-# DualGCN-ABSA
-Dual Graph Convolutional Networks for Aspect-based Sentiment Analysis
+# DualGCN
 
-Our code will be released at the time of publication
+Dual Graph Convolutional Networks for Aspect-based Sentiment Analysis. Accepted by ACL 2021.
