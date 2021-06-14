@@ -28,7 +28,7 @@ To install requirements, run `pip install -r requirements.txt`.
 
 To train the DualGCN model, run:
 
-`sh run.sh`
+`sh DualGCN/run.sh`
 
 ## Credits
 
