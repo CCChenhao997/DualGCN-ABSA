@@ -1,6 +1,6 @@
 # DualGCN
 
-Code and datasets of our paper "Dual Graph Convolutional Networks for Aspect-based Sentiment Analysis" accepted by ACL 2021.
+Code and datasets of our paper "[Dual Graph Convolutional Networks for Aspect-based Sentiment Analysis](https://aclanthology.org/2021.acl-long.494/)" accepted by ACL 2021.
 
 
 
@@ -33,4 +33,28 @@ To train the DualGCN model, run:
 ## Credits
 
 The code and datasets in this repository are based on [ABSA-PyTorch](https://github.com/songyouwei/ABSA-PyTorch) and [CDT_ABSA](https://github.com/Guangzidetiaoyue/CDT_ABSA).
+
+
+
+## Citation
+
+If you find this work useful, please cite as following.
+
+```
+@inproceedings{li-etal-2021-dual-graph,
+    title = "Dual Graph Convolutional Networks for Aspect-based Sentiment Analysis",
+    author = "Li, Ruifan  and
+      Chen, Hao  and
+      Feng, Fangxiang  and
+      Ma, Zhanyu  and
+      Wang, Xiaojie  and
+      Hovy, Eduard",
+    booktitle = "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+    month = aug,
+    year = "2021",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.acl-long.494",
+}
+```
 
