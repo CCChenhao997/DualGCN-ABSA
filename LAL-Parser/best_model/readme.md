@@ -1,7 +1,6 @@
 ### Please put the best_parser.pt in this folder.
 
-Download the `best_parser.pt`:
-`wget https://chenhao-1300052108.cos.ap-beijing.myqcloud.com/ch-Models/best_parser.pt`
+Baidu Netdisk: [[Link]](https://pan.baidu.com/s/1N1C3HFL4Yjn--WO9ImHtHg) pw: bn3s
 
 Please see the following link for more details:
 `https://github.com/KhalilMrini/LAL-Parser#Pre-trained-models`
