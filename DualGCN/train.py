@@ -367,7 +367,7 @@ def main():
 
     # print("choice cuda:{}".format(opt.cuda))
     # os.environ["CUDA_VISIBLE_DEVICES"] = opt.cuda
-    # opt.device = torch.device('cuda' if torch.cuda.is_available() else 'cpu') if opt.device is None else torch.device(opt.device)
+    opt.device = torch.device('cuda' if torch.cuda.is_available() else 'cpu') if opt.device is None else torch.device(opt.device)
     
     # set random seed
     setup_seed(opt.seed)
