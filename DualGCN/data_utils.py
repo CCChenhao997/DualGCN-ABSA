@@ -386,13 +386,9 @@ class ABSAGCNData(Dataset):
             src_mask = np.asarray(src_mask, dtype='int64')
             aspect_mask = np.asarray(aspect_mask, dtype='int64')
             # pad adj
-            context_asp_adj_matrix = np.ones(
+            context_asp_adj_matrix = np.zeros(
                 (tokenizer.max_seq_len, tokenizer.max_seq_len)).astype('float32')
-            pad_adj = np.ones(
-                (context_asp_len, context_asp_len)).astype('float32')
-            pad_adj[1:context_len + 1, 1:context_len + 1] = tok_adj
-            context_asp_adj_matrix[:context_asp_len,
-                                   :context_asp_len] = pad_adj
+            context_asp_adj_matrix[1:context_len + 1, 1:context_len + 1] = tok_adj
             data = {
                 'text_bert_indices': context_asp_ids,
                 'bert_segments_ids': context_asp_seg_ids,
